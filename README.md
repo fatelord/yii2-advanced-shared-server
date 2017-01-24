@@ -1,8 +1,8 @@
-Yii 2 Advanced Project Template
+Pyrotech Solutions Yii 2 Advanced Shared Hosting Project Template
 ===============================
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+developing complex Web applications with multiple tiers that can be placed on shared hosting.
 
 The template includes three tiers: front end, back end, and console, each of which
 is a separate Yii application.
@@ -50,6 +50,8 @@ frontend
     views/               contains view files for the Web application
     web/                 contains the entry script and Web resources
     widgets/             contains frontend widgets
+public_html/             contains the entry scripts and Frontend Web resources
+    admin/               contains the backend entry script and Web resources
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
