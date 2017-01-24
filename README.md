@@ -57,7 +57,7 @@ environments/            contains environment-based overrides
 ```
 
 
-GETTING STARTED
+GETTING STARTED 
 ---------------
 
 After you install the application, you have to conduct the following steps to initialize
