@@ -33,6 +33,7 @@ return [
             // this is the name of the session cookie used for login on the backend
             'name' => 'advanced-backend',
             'cookieParams' => [
+                'httpOnly' => true,
                 'path' => '/admin',
             ],
         ],
@@ -49,10 +50,17 @@ return [
             'errorAction' => 'site/error',
         ],
         'urlManager' => [
+            'class' => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
+        ],
+        'urlManagerFrontEnd' => [
+            'class' => 'yii\web\urlManager',
+            'baseUrl' => 'http://'.Ptech_HOST,
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
         ],
     ],
     'params' => $params,
