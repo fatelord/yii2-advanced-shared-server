@@ -1,3 +1,5 @@
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
 # ----------------------------------------------------------------------
 # Adds some security for the Apache server configuration for use with
 # yii2-app-practical template.
