@@ -38,8 +38,7 @@ return [
             'public_html/admin/assets',
         ],
         'setExecutable' => [
-            'yii',
-            'yii_test',
+            'yii'
         ],
         'setCookieValidationKey' => [
             'backend/config/main-local.php',
